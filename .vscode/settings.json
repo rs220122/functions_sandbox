@@ -1,0 +1,35 @@
+{
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 2,
+    "python.defaultInterpreterPath": "~/miniforge3_x86_64/envs/functions_sandbox/bin/python",
+    "azurite.location": "azurite_data",
+    "terminal.integrated.profiles.osx": {
+        "rosetta": {
+            "path": "arch",
+            "args": [
+                "-x86_64",
+                "zsh",
+                "-l"
+            ],
+            "overrideName": true,
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "rosetta",
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit"
+        }
+    },
+    "autoDocstring.docstringFormat": "numpy",
+    "autoDocstring.startOnNewLine": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [80]
+}
